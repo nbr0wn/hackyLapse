@@ -1,4 +1,5 @@
 # hackyLapse
+
 ESP32 HID time lapse app with captive web configurator for LILYGO T-Dongle
 
 
@@ -6,7 +7,8 @@ This project was quickly cobbled together from a bunch of other ESP32
 projects because I needed a long-running time lapse controller for 
 capturing night images on my iPhone. 
 
-This is a platformio project (https://platformio.com) and should build with the latest platformio.  
+This is a platformio project (https://platformio.org) and should build with the latest platformio.  
+Quick CLI install: https://docs.platformio.org/en/latest/core/installation/index.html
 
 
 Building and installing
