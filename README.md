@@ -20,7 +20,7 @@ You may get an error about "atomic.h" not found.  Just delete the line that has 
 
 
 # Using:
-Plug the T-dongle into a USB port.  The LCD should read: "Pair Bluetooth".  On the device you're using to take pictures, pair the device.  
+Plug the T-dongle into a USB port.  The LCD should read: "Pair Bluetooth".  On the device you're using to take pictures, pair the device.  Switch to camera mode and when the timer expires, HackyLapse will snap a picture.
 
 HackyLapse will act like a bluetooth keyboard and hit the "volume up" button after the timer expires in order to take a picture.  This is a standard shutter shortcut, but if you need another button, look for SHUTTER_KEY in src/ble_task.c and change it to what you want.
 
